@@ -131,7 +131,7 @@ a {
     rgba(0, 0, 0, 0.9),
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.9)
-    ), url(img/funeral_aleman.jpg);
+    ), url(funeral_aleman.jpg);
     display: flex;
     flex-direction: column;
     background-color: #141414;
@@ -182,7 +182,7 @@ a {
     background: linear-gradient(
         rgba(20, 0, 0, 0.95),
         rgba(0, 0, 0, 0.95)
-    ), url(img/destruccion.jpg);
+    ), url(destruccion.jpg);
     background-size: cover;
     background-position: center;
     color: white;
