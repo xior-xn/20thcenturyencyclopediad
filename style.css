@@ -1,0 +1,258 @@
+@import url(https://db.onlinewebfonts.com/c/3f48b937ae1348fda2b65d5f12e90c9a?family=Nexa+Rust+Slab+W00+Black+01);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: #F1F2F3;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    display: flex;
+    flex-direction: row;   
+    gap: 20px;            
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #F1F2F3;
+}
+
+/*NAV*/
+
+.main-nav {
+    justify-content: flex-start;
+    background-color: #141414;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    height: 80px;
+    padding: 0 20px;
+    gap: 180px;
+}
+
+.nav_buttons {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+    font-family: "Nexa Rust Slab W00 Black 01";
+}
+
+/*FRASE E IMAGEN*/
+
+.sacred_war {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.sacred_war img {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+
+.phrase {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 15px;
+    flex: 1;              
+    text-align: center;
+}
+
+/*PARTE PRINCIPAL*/
+
+.main_articles {
+    width: 100%;
+    height: 590px;
+    color: #F1F2F3;
+    background-color: #141414;
+}
+
+.main_articles h1 {
+    font-family: "Nexa Rust Slab W00 Black 01";
+    padding-top: 20px;
+    text-align: center;
+}
+
+.intro_h1 {
+    font-family: "Nexa Rust Slab W00 Black 01";
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #F1F2F3;
+}
+
+.intro_p {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+/*Instarticulos*/
+
+.instaarticulos {
+    color: #141414;
+    background-color: #F1F2F3;
+    min-height: 270px;
+    vertical-align: top;
+    border-radius: 10px;
+}
+
+.articles_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    padding: 40px;
+    background-color: #141414;
+}
+
+.instaarticulos h3 {
+    padding: 6px;
+    font-family: "Nexa Rust Slab W00 Black 01";
+    text-align: center;
+}
+
+.instaarticulos p {
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+.war {
+    background-attachment: fixed;
+    background-image: linear-gradient(
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.9)
+    ), url(img/funeral_aleman.jpg);
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    padding: 40px;
+}
+
+.war h1 {
+    text-shadow: 0 0 10px rgba(255,255,255,0.2);
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.contenido {
+    align-items: center; 
+    text-align: center;  
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.texto {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+    max-width: auto;
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+
+.contenido video {
+    width: 50%;
+    margin: 40px auto 0 auto;
+    display: block;
+}
+
+.impacto {
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+.war-crimes {
+    padding: 60px 20px;
+    background: linear-gradient(
+        rgba(20, 0, 0, 0.95),
+        rgba(0, 0, 0, 0.95)
+    ), url(img/destruccion.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.war-crimes h1 {
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px rgba(255,0,0,0.3);
+}
+
+.contenido-crimenes {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro {
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.definicion {
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    opacity: 0.85;
+    margin-bottom: 40px;
+}
+
+.ejemplos {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.caso {
+    padding: 20px;
+    border-left: 3px solid rgba(255, 0, 0, 0.6);
+    background-color: rgba(255,255,255,0.05);
+    text-align: left;
+}
+
+.caso h3 {
+    margin-bottom: 10px;
+    color: #ff4d4d;
+}
+
+.cierre {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/*Footer*/
+
+.nunca-mas {
+    font-family: "Outfit", sans-serif;
+    padding: 80px 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.nunca-mas h2 {
+    margin-top: 20px;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
